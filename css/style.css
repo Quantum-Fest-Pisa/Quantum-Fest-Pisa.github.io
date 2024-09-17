@@ -12,7 +12,8 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
 }
 
 a {
@@ -39,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -114,7 +115,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: violet;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -168,14 +169,14 @@ h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: violet;
 }
 
 #header #logo h1 a,
@@ -215,12 +216,12 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -266,7 +267,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 600;
   font-size: 14px;
   outline: none;
@@ -277,40 +278,40 @@ h6 {
   color: #fff;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 8px;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
   content: "";
   position: absolute;
   width: 0;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: violet;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
   visibility: visible;
   width: 100%;
 }
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f82249;
+  background: purple;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid violet;
   transition: all ease-in-out 0.3s;
-  font-weight: 500;
+  font-weight: 1000;
   margin-left: 8px;
   margin-top: 2px;
-  line-height: 1;
+  line-height: 2;
   font-size: 13px;
 }
 
@@ -345,8 +346,8 @@ h6 {
   border-radius: 3px;
 }
 
-.nav-menu ul li:hover > a {
-  background: #f82249;
+.nav-menu ul li:hover>a {
+  background: violet;
   color: #fff;
 }
 
@@ -413,7 +414,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: violet;
 }
 
 #mobile-nav ul li li {
@@ -430,11 +431,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f82249;
+  color: violet;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f82249;
+  color: violet;
 }
 
 #mobile-body-overly {
@@ -510,14 +511,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 #intro h1 span {
-  color: #f82249;
+  color: rgb(236, 28, 236);
 }
 
 #intro p {
@@ -529,7 +530,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(rgb(236, 28, 236) 50%, rgb(236, 28, 236) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -601,9 +602,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -614,11 +615,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid violet;
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
+  background: violet;
   color: #fff;
 }
 
@@ -742,7 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #f82249;
+  color: violet;
 }
 
 #speakers .speaker:hover .details {
@@ -777,7 +778,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: violet;
   color: #fff;
 }
 
@@ -822,7 +823,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: purple;
   color: #fff;
 }
 
@@ -1045,7 +1046,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .owl-dot.active {
-  background-color: #f82249;
+  background-color: violet;
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
@@ -1123,7 +1124,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
@@ -1218,7 +1219,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
@@ -1412,7 +1413,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1426,7 +1427,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   color: #fff;
 }
 
@@ -1548,6 +1549,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
+
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
