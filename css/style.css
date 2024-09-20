@@ -735,7 +735,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details .social {
-  height: 30px;
+  /*height: 30px;*/
+  height: 0px; /*settato a 0px per coprire i social degli speaker*/
 }
 
 #speakers .speaker .details a {
