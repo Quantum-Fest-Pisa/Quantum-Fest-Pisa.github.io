@@ -146,6 +146,21 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
+              <img src="img/speakers/cavallini.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3>Luca Cavallini</h3>
+                <p>IBM</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
               <img src="img/speakers/chiofalo.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3>Maria Luisa Chiofalo</h3>
@@ -176,40 +191,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/mattei.png" alt="Speaker 4" class="img-fluid">
-              <div class="details">
-                <h3>Federico Mattei</h3>
-                <p>IBM</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
               <img src="img/speakers/santini.jpeg" alt="Speaker 5" class="img-fluid">
               <div class="details">
                 <h3>Paolo Santini</h3>
                 <p>Università Politecnica delle Marche</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6"  style="display: none;">
-            <div class="speaker">
-              <img src="img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-                <p>Non autem dicta</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -236,7 +221,7 @@
         </div>
       </div>
     </section>
-    <section id="schedule" class="section-with-bg" style="display:none">
+    <section id="schedule" class="section-with-bg"  style="display:none">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <!-- <h2>Event Schedule</h2> -->
@@ -784,7 +769,8 @@
         </div>
 
       
-        <div class="row">
+        <div class="row justify-content-center">
+        
           <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
@@ -792,16 +778,20 @@
                 <h6 class="card-price text-center">Conferenza</h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Lezioni</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Seminari</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Pranzo</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Hackaton</li>
+                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>09:00 - 18:30</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Computing 101</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Speaker da Accademia e Industria</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Pranzo e Cofee Breaks</li>
+                  <!-- <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Hackaton</li> -->
                 </ul>
                 <hr>
                 <div class="text-center">
                   <button type="button" class="btn" data-toggle="modal" 
                     data-ticket-type="pro-access" 
-                    onclick="location.href='https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?';">
+                    onclick="window.open(
+                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
+                      '_blank' // <- This is what makes it open in a new window.
+                    )">
                     Prenota
                 </button>
                 </div>
@@ -815,39 +805,20 @@
                 <h6 class="card-price text-center">Hackaton</h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Lezioni</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Seminari</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Pranzo</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Hackaton</li>
+                  <li><span class="fa-li"><i class="fa fa-clock-o"></i></span>9:00 - 13:00</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Quantum Hackaton</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Premiazione</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
+                  <!-- <li><span class="fa-li"><i class="fa fa-check"></i></span>Hackaton</li> -->
                 </ul>
                 <hr>
                 <div class="text-center">
                   <button type="button" class="btn" data-toggle="modal" 
                     data-ticket-type="pro-access" 
-                    onclick="location.href='https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?';">
-                    Prenota
-                </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">21-22 Novembre</h5>
-                <h6 class="card-price text-center">Entrambi</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Lezioni</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Seminari</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Pranzo</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Hackaton</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" 
-                    data-ticket-type="pro-access" 
-                    onclick="location.href='https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?';">
+                    onclick="window.open(
+                      'https://www.eventbrite.it/e/biglietti-pisa-quantum-festival-1046843586347?',
+                      '_blank' // <- This is what makes it open in a new window.
+                    )">
                     Prenota
                 </button>
                 </div>
